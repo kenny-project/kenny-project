@@ -22,5 +22,6 @@ public class GuessNumberTest {
         GuessNumber guessNumber = new GuessNumber("1234");
         String result = guessNumber.validate("5678");
         assertEquals("0a0b", result);
+        
     }
 }
