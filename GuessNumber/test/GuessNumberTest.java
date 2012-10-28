@@ -11,7 +11,7 @@ public class GuessNumberTest {
         String result = guessNumber.validate("1234");
         assertEquals("4a0b", result);
     }
-
+fds
     @Test
     public void should_return_3a0b_given_partial_digits_are_correct(){
         GuessNumber guessNumber = new GuessNumber("1234");
